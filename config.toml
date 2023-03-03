@@ -1,0 +1,40 @@
+baseurl = "https://example.org/"
+title = "Sacha Wheeler - things done for the fun of it"
+theme = "hugo-creative-portfolio-theme"
+languageCode = "en-gb"
+# Enable comments by entering your Disqus shortname
+# disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "UA-86918774-1"
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "Things done for the fun of it by Sacha Wheeler."
+  copyright = "&copy;2023 Sacha Wheeler"
+  sidebarAbout = [
+    "I am a CTO and Senior Developer for start-ups with 25 years experience. I'm currently based in London.",
+    "These are some projects which I do purely for the fun of it."
+  ]
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = "home/"
+  home = true
+
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
+
+  # [[params.navlinks]]
+  # name = "Get in touch"
+  # url = "contact/"
+
+  [params.social]
+  email         = "sacha@sachawheeler.com"
+  linkedin      = "https://www.linkedin.com/in/sachawheeler/"
+  instagram     = "https://www.instagram.com/sachawheeler/"
+  instagram2    = "https://www.instagram.com/sachawheeler_experiments/"
+  github        = "https://github.com/sachawheeler"
+  youtube       = "https://www.youtube.com/SachaWheeler"
